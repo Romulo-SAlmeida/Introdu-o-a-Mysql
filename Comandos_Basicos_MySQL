@@ -1,0 +1,7 @@
+No Mysql é ultilizado comandos SQL para criar, filtrar, editar e apagar dados.
+
+Comando CREATE é o comando para criar tabelas ou banco de dados. Exemplo:
+    CREATE DATABASE < nome_banco_de_dados>; 'Comando para criar bancos de dados'
+    CREATE TABLE<nome_tabela>(
+        
+    )

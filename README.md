@@ -1,2 +1,2 @@
-# Introdu-o-a-Mysql
+# Introducao-a-Mysql
 Introdução e comandos de consulta em MySQL
