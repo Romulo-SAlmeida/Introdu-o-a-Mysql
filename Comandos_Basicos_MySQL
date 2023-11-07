@@ -1,7 +1,31 @@
 No Mysql é ultilizado comandos SQL para criar, filtrar, editar e apagar dados.
 
 Comando CREATE é o comando para criar tabelas ou banco de dados. Exemplo:
-    CREATE DATABASE < nome_banco_de_dados>; 'Comando para criar bancos de dados'
-    CREATE TABLE<nome_tabela>(
-        
+    
+    CREATE DATABASE < nome_banco_de_dados>;   -->Comando para criar bancos de dados'
+    
+    CREATE TABLE<nome_tabela>(                 ---> Criando a tabela
+        nome_variavel_1 <tipo variável>        ---> Declaração de variável e seu tipo
+        nome_variavel_2 <tipo variável>        
+        primary key(nome_variável)             ---> Deixando a variável com chave primária
     )
+
+O comando USE é necessario para selecionar uma base de dados que o usuario deseja usar, editar e etc. Exemplo:
+    use nome_banco_de_dados;
+
+o SELECT é um comando usado para filtrar as informações que eu defino. O usuario seleciona as condições ultilizando 
+colunas, tabelas, dados e por fim ocorré a filtragem de informações. Exemplo:
+    select(nome_coluna) from(nome tabela);                          --->Condição que me mostra somente a coluna que eu selecionar.
+    select*from (nome_tabela) where (nome_coluna) = (condição)      --->Condição que me traz informações por meio de uma condição.
+    select*from (nome_tabela) order by (nome_coluna) asc/des;       --->Condição que demonstra a coluna selecionada em ordem crescente ou descrecente.
+
+Comando DROP é ultilizado para apagar tabelas ou bancos de dados. Exemplo:
+    DROP DATABASE nome_banco_de_dados;         ---> Apagando um banco de dados       
+    DROP TABLE usuarios;                        ---> Apagando uma tabela 
+
+O comando ALTER permite o usuario inserir/deletar dados do banco. Exemplo:
+    ALTER TABLE(nome_tabela) add (nome_variavel) (seu_tipo);
+    ALTER TABLE(nome_tabela) drop (nome_variavel);
+
+COUNT é um comando que mostra a quantidade de dados selecionados. Exemplo:
+
