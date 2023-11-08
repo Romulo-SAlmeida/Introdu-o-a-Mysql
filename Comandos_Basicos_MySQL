@@ -28,4 +28,28 @@ O comando ALTER permite o usuario inserir/deletar dados do banco. Exemplo:
     ALTER TABLE(nome_tabela) drop (nome_variavel);
 
 COUNT é um comando que mostra a quantidade de dados selecionados. Exemplo:
+    select count(*) from (nome da tabela) where (nome_coluna) = (condição);  ---> Esse comando me mostra a quantidade de valores eu tenho nessa condição;
+
+Comando INSERT me permite adicionar valores a uma coluna da tabela.  Exemplo:
+    insert into (nome_tabela) (nome_coluna 1, nome_coluna 2);
+    values (valor_ coluna 1,  valor_coluna 2);
+
+Comando UPDATE altera valores selecionados na tabela. Exemplo:
+    update (nome_tabela)                      ---> Seleciona a tabela para alteração.
+    set (nome_coluna) = (valor)               ---> Novos valores para setar na tabela.
+    where (condição_para_alterar_valores);    ---> Condição para encontrar os valores que desejamos alterar.
+obs.: Sempre use a PK como condição no 'where'.
+
+Comando DELETE permite deletar dados em colunas selecionadas. Exemplo:
+    delete
+    from(nome_tabela)
+    where(condição);
+obs.: Sempre use a PK como condição no 'where'.
+
+Comando MAX é ultilizado para encontrar o valor maximo da coluna. Exemplo:
+    select max (nome_coluna) from (nome_tabela);
+
+
+
+
 
