@@ -1,0 +1,13 @@
+/*Comando CREATE é o comando para criar tabelas ou banco de dados. Exemplo:*/
+    
+    CREATE DATABASE empresa;   -->Comando para criar bancos de dados'
+    
+    
+    create table funcionarios(                     ---> Criando a tabela
+	nome varchar(36) not null,                     ---> Declaração de variável e seu tipo
+    rg varchar(36) primary key not null,            ---> Deixando a variável com chave primária
+    cic varchar(36),
+    depto int(5),
+    rg_supervisor varchar(36),
+    salario double(16,00)
+    );

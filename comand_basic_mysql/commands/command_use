@@ -1,0 +1,3 @@
+/*O comando USE é necessario para selecionar uma base de dados que o usuario deseja usar, editar e etc. Exemplo:*/
+
+    use empresa;    --->comando para ultilizar o banco de dados 'empresa'.
