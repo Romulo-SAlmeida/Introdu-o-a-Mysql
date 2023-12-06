@@ -1,3 +1,4 @@
--- Comando DROP é ultilizado para apagar tabelas ou bancos de dados. Exemplo:
+/*Comando DROP é ultilizado para apagar tabelas ou bancos de dados. Exemplo:*/
+   
     DROP DATABASE empresa;         ---> Apagando um banco de dados       
     DROP TABLE funcionarios;                        ---> Apagando uma tabela 

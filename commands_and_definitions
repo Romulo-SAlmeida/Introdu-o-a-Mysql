@@ -1,7 +1,7 @@
 No Mysql é ultilizado comandos SQL para criar, filtrar, editar e apagar dados.
 
 Comando CREATE é o comando para criar tabelas ou banco de dados. Exemplo:
-    
+  
     CREATE DATABASE < nome_banco_de_dados>;   -->Comando para criar bancos de dados'
     
     CREATE TABLE<nome_tabela>(                 ---> Criando a tabela
@@ -48,8 +48,3 @@ obs.: Sempre use a PK como condição no 'where'.
 
 Comando MAX é ultilizado para encontrar o valor maximo da coluna. Exemplo:
     select max (nome_coluna) from (nome_tabela);
-
-
-
-
-
