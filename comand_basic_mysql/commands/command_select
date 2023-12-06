@@ -1,0 +1,6 @@
+/*O SELECT é um comando usado para filtrar as informações que eu defino.  O usuario seleciona as condições ultilizando
+colunas, tabelas, dados e por fim ocorré a filtragem de informações. Exemplo:*/
+    
+    select *from funcionarios;           --->Condição que me mostra todo o banco de dados.
+    select salario from funcionarios;    --->Condição que me mostra somente a coluna que eu selecionar.
+    select *from funcionarios where salario = 4200 ;   --->Condição que me traz informações por meio de uma condição.
