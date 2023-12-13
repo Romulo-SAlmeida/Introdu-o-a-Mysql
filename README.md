@@ -17,11 +17,15 @@ o usuário manipular, definir e construir bancos de dados. O SGBD deve possuir a
 •Compartilhamento de dados: Garante em qualquer situação a escrita e leitura de dados sem erro.
 
 •Controle de acesso: São recursos que possibilitam selecionar a autoridade de cada usuário.
-•	Interfaceamento: Deve possuir formas de acesso gráfico, em linguagem natural.
-•	Esquematização: São formas que facilitam a compreensão do relacionamento entre tabelas.
-•	Controle de integridade: Impede que aplicações ou acessos possam comprometer os dados.
-•	Copias de segurança: Deve possuir a facilidade para recuperar falhas de hardware e software, através das existências 
-        de arquivos de "pré-imagem".
+
+•Interfaceamento: Deve possuir formas de acesso gráfico, em linguagem natural.
+
+•Esquematização: São formas que facilitam a compreensão do relacionamento entre tabelas.
+
+•Controle de integridade: Impede que aplicações ou acessos possam comprometer os dados.
+
+•Copias de segurança: Deve possuir a facilidade para recuperar falhas de hardware e software, através das existências de arquivos de "pré-imagem".
+
 Mas nem todos os SGBD's existentes possuem esses requisitos.
 
 O que é SQL?
