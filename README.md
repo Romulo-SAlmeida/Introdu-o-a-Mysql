@@ -11,9 +11,12 @@ SGBD. Existem vários modelos de bancos de dados, mas agora somente utilizaremos
 O que é SGBD?
 A sigla SGBD significa sistema gerenciador de banco de dados. O SGBD é uma coleção de programas responsável por permitir 
 o usuário manipular, definir e construir bancos de dados. O SGBD deve possuir algumas características que são:
-•	Controle de redundância: Não pode haver redundâncias, como, armazenar as mesmas informações em locais diferentes.
-•	Compartilhamento de dados: Garante em qualquer situação a escrita e leitura de dados sem erro.
-•	Controle de acesso: São recursos que possibilitam selecionar a autoridade de cada usuário.
+
+• Controle de redundância: Não pode haver redundâncias, como, armazenar as mesmas informações em locais diferentes.
+
+•Compartilhamento de dados: Garante em qualquer situação a escrita e leitura de dados sem erro.
+
+•Controle de acesso: São recursos que possibilitam selecionar a autoridade de cada usuário.
 •	Interfaceamento: Deve possuir formas de acesso gráfico, em linguagem natural.
 •	Esquematização: São formas que facilitam a compreensão do relacionamento entre tabelas.
 •	Controle de integridade: Impede que aplicações ou acessos possam comprometer os dados.
