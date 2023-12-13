@@ -1,0 +1,7 @@
+/*Comando UPDATE altera valores selecionados na tabela. Exemplo: */
+
+    update funcionarios                            ---> Seleciona a tabela para alteração.
+    set salario = (4200*0.5) + 4200                ---> Novos valores para setar na tabela.
+    where rg = '40404040';                         ---> Condição para encontrar os valores que desejamos alterar.
+
+--obs.: Sempre use a PK como condição no 'where'.--
