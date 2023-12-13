@@ -1,0 +1,7 @@
+/*Comando DELETE permite deletar dados em colunas selecionadas. Exemplo: */
+
+    delete 
+    from funcionarios                    ---> Seleciona a tabela desejada
+    where rg = '14654546';               ---> Condição para encontrar os valores que deseja deletar
+
+--obs.: Sempre use a PK como condição no 'where'.--
