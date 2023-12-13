@@ -1,4 +1,4 @@
-/*Comando CREATE é o comando para criar tabelas ou banco de dados. Exemplo:*/
+/*Comando CREATE é o comando para criar tabelas ou banco de dados.Exemplo:*/
     
     CREATE DATABASE empresa;   -->Comando para criar bancos de dados'
     
