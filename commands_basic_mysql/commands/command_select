@@ -5,3 +5,4 @@ colunas, tabelas, dados e por fim ocorré a filtragem de informações. Exemplo:
     select salario from funcionarios;    --->Condição que me mostra somente a coluna que eu selecionar.
     select *from funcionarios where salario = 4200 ;   --->Condição que me traz informações por meio de uma condição.
     select count(*) from funcionarios where salario = 1500;  ---> Esse comando me mostra a quantidade de valores eu tenho nessa condição;
+    select max salario from funcionarios;    ---> Condição que mostra o maior valor na coluna selecionada.
