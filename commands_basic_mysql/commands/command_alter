@@ -1,0 +1,4 @@
+/* O comando ALTER permite o usuario inserir/deletar dados do banco. Exemplo: */
+  
+  alter table funcionarios add cpf string;
+  alter table funcionarios drop cpf;

@@ -1,0 +1,4 @@
+/*Comando INSERT me permite adicionar valores a uma coluna da tabela.  Exemplo:*/
+    
+    insert into funcionarios (nome, rg, cic, depto, rg_supervisor, salario)
+    values ('Maria Antônia', '1254754', '50401500', 3, '50303030', 800);
