@@ -1,4 +1,4 @@
-/*Comando DELETE permite deletar dados em colunas selecionadas. Exemplo: */
+/*Comando DELETE permite deletar dados em colunas selecionadas. Exemplo:*/
 
     delete 
     from funcionarios                    ---> Seleciona a tabela desejada
